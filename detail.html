@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail page</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class=" pb-3">
+  <nav class="navbar navbar-expand-lg dark-light px-3 border-bottom border-3 pb-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-book-fill"></i></a>
+      <input class="form-control me-auto me-2 w-auto d-none d-md-inline d-lg-inline dark-light bg-white" type="search" placeholder="Search" aria-label="Search">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="btn bg-transparent nav-link" aria-current="page" href="#feedback" data-bs-toggle="modal"><i class="bi bi-pencil-square me-2"></i>write</a>
+            <div class="modal fade" id="feedback">
+              <div class=" modal-dialog">
+                <div class=" modal-content">
+                  <div class="modal-header">
+                    <h5>What's on your mind?</h5>
+                    <button class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class=" modal-body">
+                    <textarea class=" form-control bg-white"></textarea>
+                  </div>
+                  <div class=" modal-footer">
+                    <a href="#" class=" btn btn-outline-primary" data-bs-dismiss="modal">Discard</a>
+                    <a href="#" class=" btn btn-primary" data-bs-dismiss="modal">Post</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-success rounded-pill px-4 ms-4" href="register.html">Sign up</a>
+          </li>      
+          <li class="nav-item">
+            <a class="btn bg-transparent rounded-pill px-4 ms-4" href="login.html">Sign in</a>
+          </li>       
+        </ul>      
+      </div>
+      <div class=" dropdown">
+      <a href=""><span><i class="bi bi-search fs-4 d-md-none d-lg-none d-inline me-2"></i></span></a>
+        <a class=" text-decoration-none text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-person-circle fs-3"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+      <main class=" mt-3">
+        <section class=" container">
+          <div class=" row">
+            <div class=" col-12 col-md-7 col-lg-9 border-end border-1">
+              
+              <div class=" row border-2 border-bottom pb-1 g-4 text-nowrap">
+                <div class=" col-1">
+                <a href="#"><img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class=" rounded-circle align-self-start me-2" width="40" height="40" alt=""></a>
+                </div>
+                <div class="col-6 align-self-center">
+                        <h6>Elon Musk</h6>
+                        <p class=" text-black-50 small">Dec 14 - <span>4 min read</span> <span><i class="bi bi-play-circle-fill me-2 ms-2"></i> listen</span></p>
+                </div>
+                <div class=" col-4 align-self-center">
+                    <a href="#" class="">
+                        <div class=" d-flex gap-3 fs-6 text-black-50">
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-link-45deg me-5"></i>
+                            
+                        </div>
+                    </a>  
+                </div>
+                <div class="col-1 align-self-center">
+                    <a href="#" class="text-black-50 fs-4"><i class="bi bi-bookmarks"></i></a>
+                </div>
+              </div>
+
+              <div class=" w-90 mt-3 my-font text-center text-md-start text-lg-start">
+                <h4 class=" mb-4">The Death of Creativity’s Learning Curve</h4>
+                <p class=" mb-4">Welcome to an era in which the friction between an idea, and creatively expressing that idea, is removed. Whether it is as an image, an essay, an animated story, or even a video, you can simply talk about what you see in your mind’s eye and get immediate visual output. “But that’s not real creativity!” some may exclaim. Until now, “creativity” has conflated both the generation of ideas and the process involved to express those ideas. Is the process of intricately chiseling a beautiful sculpture creative, or is the idea of the sculpture — the image conjured up in the mind’s eye — the truly creative part of an otherwise laborious and tedious process? It’s an age-old argument. Michelangelo, for instance, believed that each stone has a statue inside it and the sculptor discovers it by chipping away. At the same time, the great master employed as many as 13 assistants to help him paint the Sistine Chapel. So, it’s complicated.</p>
+                <p class=" mb-4">Most artists today can’t afford 13 human assistants, but they use other tools to reduce the laborious parts of creativity, including AI-powered shortcuts, component libraries for product designers, templates, and now generative AI. This latest breakthrough has elicited both fanfare and fear because of its ability to conjure up an original piece of media based solely on a text prompt. Conceptually, it’s like a roomful of inexperienced interns who instantly present you with endless renditions of whatever you describe. Most of what they present will be wrong, but you may get some stuff to work with and, occasionally, something novel will catch your eye.</p>
+                <p class=" mb-5">Of course, behind the scenes, the machine learning engines that drive AI creation were trained using millions of pieces of content from real artists, many of whom never consented to having their work used in that way. To correct this, I anticipate a series of regulations, evolutions in copyright law, new walled gardens and token-gated portfolio experiences, and new compensation models for artists that opt-in and/or allow use of their style for GenerativeAI purposes. Serious issues to solve and unfortunately, as usual, the availability of such tech preceded these discussions. But here we are, and we need to both find the path to sustainability as well as the opportunities for both artists and non-artists alike.</p>
+
+                <img src="https://miro.medium.com/max/828/1*gz0bsu4Kvyh9g6HXrM8TQw.webp" class=" w-100" alt="">
+              </div>
+              
+              <footer class=" text-center mt-4 border-top border-2 pt-4">
+                <span class=" me-4 text-nowrap">Love podcasts or audiobooks? Learn on the go with our new app.</span>
+                <button class=" btn btn-dark rounded-5">Try knowable</button>
+              </footer>
+            </div>
+
+            <div class=" d-none d-md-block d-lg-block col-md-5 col-lg-3">
+              
+              <div class=" position-sticky" style="top:-130px">
+                <div class=" banner border-bottom border-2 pb-4 ps-4">
+                  <div class=" d-flex">
+                    <h3 class=" fw-bold">267K</h3>
+                    <h3 class=" fw-bold offset-4">96K</h3>
+                  </div>
+                  <div class=" d-flex">
+                    <p class="">Stories</p>
+                    <p class=" offset-5">Writers</p>
+                  </div>
+                  <div class=" d-flex gap-0">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle my-ml border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle my-ml border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle my-ml border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle my-ml border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle my-ml border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle my-ml border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class="rounded-circle my-ml border border-white border-4 shadow-sm" width="38" height="38" alt="">
+                  </div>
+                </div>
+               
+                <div class=" mt-3 mb-5">
+                  <h5 class=" mb-4">related topic</h5>
+                  <div class=" d-flex text-nowrap gap-2">
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill px-3">Software Development</a>
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill px-3">Java Script</a>
+                  </div>
+                  <div class=" mt-3 d-flex text-nowrap">
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill me-1 px-3">Web Developer</a>
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill px-3">Coding</a>
+                  </div>
+                  <div class=" mt-3 d-flex text-nowrap">
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill me-1 px-3">Technology</a>
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill px-3">Python</a>
+                  </div>
+                  <div class=" mt-3 d-flex text-nowrap">
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill me-1 px-3">Data Science</a>
+                    <a href="#" class=" btn btn-sm btn-light rounded-pill px-3">Software Engineering</a>
+                  </div>
+                  <a href="#" class=" btn btn-sm btn-light rounded-pill mt-3 px-3">Machine Learning</a>
+                </div>
+  
+                <div class="people">
+                  <h5 class=" mb-4">Top Writers</h5>
+  
+                  <div class=" row mb-2 g-2 text-nowrap">
+                    <div class=" col-2">
+                      <div class="">
+                      <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class=" align-self-start rounded-circle" width="35" height="35" alt="">
+                      </div>
+                    </div>
+                    <div class=" col-7">
+                      <div class="">
+                        <span class=" fw-bold">Javin Paul</span>
+                        <div class="">
+                        <p class="fs-sm mb-0">I am Java programmer.</p>
+                        <p class="fs-sm text-truncate">blogger,working on Java fsdfd sdffsdf dfsfdsf sfgdsf</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-2 align-self-center">
+                      <a href="#" class=" btn btn-sm btn-success rounded-pill px-3 ms-4">Follow</a>
+                    </div>
+                  </div> 
+  
+                  <div class=" row mb-2 g-0">
+                    <div class=" col-2">
+                      <div class="">
+                      <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class=" align-self-start rounded-circle" width="35" height="35" alt="">
+                      </div>
+                    </div>
+                    <div class=" col-7">
+                      <div class="">
+                        <span class=" fw-bold">Javin Paul</span>
+                        <div class="">
+                        <p class="fs-sm mb-0">I am Java programmer.</p>
+                        <p class="fs-sm text-truncate">blogger,working on Java fsdfd sdffsdf dfsfdsf sfgdsf</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-2 align-self-center">
+                      <a href="#" class=" btn btn-sm btn-success rounded-pill px-3 ms-4">Follow</a>
+                    </div>
+                  </div> 
+  
+                  <div class=" row mb-2 g-0">
+                    <div class=" col-2">
+                      <div class="">
+                      <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class=" align-self-start rounded-circle" width="35" height="35" alt="">
+                      </div>
+                    </div>
+                    <div class=" col-7">
+                      <div class="">
+                        <span class=" fw-bold">Javin Paul</span>
+                        <div class="">
+                        <p class="fs-sm mb-0">I am Java programmer.</p>
+                        <p class="fs-sm text-truncate">blogger,working on Java fsdfd sdffsdf dfsfdsf sfgdsf</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-2 align-self-center">
+                      <a href="#" class=" btn btn-sm btn-success rounded-pill px-3 ms-4">Follow</a>
+                    </div>
+                  </div> 
+  
+                  <div class=" row mb-2 g-0">
+                    <div class=" col-2">
+                      <div class="">
+                      <img src="https://media.npr.org/assets/img/2022/10/31/gettyimages-1240408699-1845681b19113a6c4db9b54f1a1594ff25b3cd21.jpg" class=" align-self-start rounded-circle" width="35" height="35" alt="">
+                      </div>
+                    </div>
+                    <div class=" col-7">
+                      <div class="">
+                        <span class=" fw-bold">Javin Paul</span>
+                        <div class="">
+                        <p class="fs-sm mb-0">I am Java programmer.</p>
+                        <p class="fs-sm text-truncate">blogger,working on Java fsdfd sdffsdf dfsfdsf sfgdsf</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-2 align-self-center">
+                      <a href="#" class=" btn btn-sm btn-success rounded-pill px-3 ms-4">Follow</a>
+                    </div>
+                  </div> 
+  
+                  <a href="#" class=" text-decoration-none text-success opacity-75">See More</a> 
+
+                  <div class=" mt-4">
+                    <a href="#" class=" text-decoration-none text-black-50">Visit the archeive</a>
+                    <div class=" mt-3">
+                      <a href="#"  class=" text-decoration-none text-black-50 small">Help</a>
+                      <a href="#"  class=" text-decoration-none text-black-50 small">Status</a>
+                      <a href="#"  class=" text-decoration-none text-black-50 small">Writers</a>
+                      <a href="#"  class=" text-decoration-none text-black-50 small">Blog</a>
+                      <a href="#"  class=" text-decoration-none text-black-50 small">Carrers</a>
+                      <a href="#"  class=" text-decoration-none text-black-50 small">Terms</a>
+                      <a href="#"  class=" text-decoration-none text-black-50 small">About</a>
+                      <br>
+                      <a href="#"  class=" text-decoration-none text-black-50 small">Text to speech</a>
+                    </div>
+                  </div>
+
+
+
+
+
+
+                </div>
+              </div>
+              
+
+              </div>
+          </div>
+        </section>
+      </main>
+</body>
+</html>

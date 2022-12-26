@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .bg{
+        background: #000000;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /* background: black; */
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center bg-success min-vh-100">
+            <div class="col-md-6 col-lg-5">
+
+                <div class=" animate__animated animate__backInDown">
+                    <div class=" text-center">
+                        <a class="navbar-brand opacity-75" href="index.html"><i class="bi bi-book-fill text-white display-5"></i></a>
+                        <h1 class=" text-white opacity-75">My Blog</h1>
+                        <h3 class=" text-white opacity-75">Log in your account</h3>
+                        <p class=" text-white-50">Log in your account for all of intuit's products including Mint.</p>
+                        </div>
+    
+                    <div class="bg-black p-5 mt-4 rounded-4 shadow-lg">
+        
+                        <div class=" row text-light mb-3">
+                            <div class=" col-12">
+                                <label for="email" class=" form-label">Email</label>
+                                <input type="email" id="email" required class=" form-control border-0 text-white">
+                            </div>
+                        </div>
+    
+                        <div class=" row text-light mb-4">
+                            <div class=" col-12">
+                                <label for="pw" class=" form-label">Password</label>
+                                <input type="password" id="pw" required class=" form-control border-0 text-white">
+                             
+                            </div>
+                        </div>
+    
+                        <div class=" mb-4">
+                            <a href="#" class=" btn btn-success w-100">Log in</a>
+                        </div>
+                        <a href="#" class=" text-white-50">forgot your password?</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

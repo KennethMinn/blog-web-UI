@@ -1,0 +1,41 @@
+
+//customize bootstrap
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$light:rgb(245, 245, 245);
+$input-bg: rgba(39, 38, 38, 0.749);
+
+
+
+//css
+.dark-light{
+    background-color:rgb (250,205 ,250);
+}
+.my-bg{
+    background-color:rgb(228, 226, 226) ;
+}
+.my-ml{
+  margin-left:-10px ;
+}
+.fs-sm{
+  font-size: 14px;
+}
+.my-font{
+  font-family: 'PT Serif', serif;
+}
+.w-90{
+  width: 90%;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../node_modules/animate.css/animate.min.css";
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap'); 
